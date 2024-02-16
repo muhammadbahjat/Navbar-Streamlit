@@ -19,7 +19,7 @@ logo_path = r'logo1.png'
 with open(logo_path, "rb") as image_file:
     encoded_logo = base64.b64encode(image_file.read()).decode('utf-8')
 st.markdown(
-        """1
+        """
         <style>
         .st-d4.st-b8.st-d5 {
         width: 30%;
